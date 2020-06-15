@@ -12,6 +12,7 @@ author: Muhammad Radifar
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  My Projects: "myproject"
   About Me: "aboutme"
 #  Resources:
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"

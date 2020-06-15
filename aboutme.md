@@ -1,10 +1,12 @@
 ---
 layout: page
-title: About me
-subtitle: The amazing things I would like to accomplish
+title: About Me
+subtitle: Computational Chemist - Software Engineer - Fullstack Developer
 ---
 
-My name is Muhammad Radifar. Currently I am a:
+# Who Am I
+
+My name is Muhammad Radifar. Currently I am a
 
 - Freelancer
 - Research Assistant
@@ -25,3 +27,7 @@ My name is Muhammad Radifar. Currently I am a:
     - Front End: Vue
     - Back End: Django
     - API: GraphQL
+
+# Would Like To Know Me Better?
+
+Click on my Github, Twitter, or Linkedin links below.
