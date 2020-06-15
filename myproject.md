@@ -4,7 +4,7 @@ title: My Projects
 subtitle: The amazing things I would like to accomplish
 ---
 
-Most of my projects are related to molecule and software engineering.
+Most of my projects are related to chemistry/medicine/molecular biology and software engineering.
 Right now I'm into web-based application for molecular modeling and
 molecular simulation, especially in workflow development and data analysis.
 
