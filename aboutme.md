@@ -1,16 +1,27 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: The amazing things I would like to accomplish
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Muhammad Radifar. Currently I am a:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+- Freelancer
+- Research Assistant
+- Computational Chemist, experienced with
+    - Molecular Dynamics
+        - NAMD
+        - GROMACS
+    - Molecular Docking
+        - AutoDock Vina
+        - PLANTS
+    - Molecule Visualization
+        - VMD
+- Software Engineer (Python), experienced with
+    - Open Babel
+    - Jupyter Notebook
+    - Sphinx documentation
+- Full Stack Developer
+    - Front End: Vue
+    - Back End: Django
+    - API: GraphQL
