@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-subtitle: Computational Chemist - Software Engineer - Fullstack Developer
+subtitle: Independent Researcher - Computational Chemist - Software Engineer - Fullstack Developer
 ---
 
 # Who Am I
