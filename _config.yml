@@ -1,7 +1,7 @@
 # --- Basic options --- #
 
 # Name of website
-title: Radifar Digital Science Labs
+title: Radifar
 
 # Short description of your site
 description: Computational Chemistry, Software Engineering, Web-based Apps, and Molecular Data Visualization & Analysis
@@ -71,7 +71,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "Radifar-DSL"
+url-pretty: "Radifar"
 
 # Create a "tags" index page and make tags on each post clickable
 link-tags: true
