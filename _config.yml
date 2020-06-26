@@ -13,8 +13,8 @@ author: Muhammad Radifar
 
 navbar-links:
   My Projects: "myproject"
-  Contact Me: "contactme"
   About Me: "aboutme"
+  Contact Me: "contactme"
 #  Resources:
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
 #    - Learn markdown: "https://www.markdowntutorial.com/"
