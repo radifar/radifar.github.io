@@ -9,6 +9,7 @@ subtitle: Independent Researcher - Computational Chemist - Software Engineer - F
 My name is Muhammad Radifar, but when you contact me just call me Radif. 
 I am from Indonesia. Currently I am a
 
+- Independent Researcher @[PICompS](https://picomps.org/profile/muhammad-radifar/)
 - Freelancer
 - Research Assistant
 - Computational Chemist, experienced with
