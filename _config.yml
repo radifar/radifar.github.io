@@ -13,6 +13,7 @@ author: Muhammad Radifar
 
 navbar-links:
   My Projects: "myproject"
+  Contact Me: "contactme"
   About Me: "aboutme"
 #  Resources:
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
