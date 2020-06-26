@@ -17,13 +17,15 @@ molecular simulation, especially in workflow development and data analysis.
 
 * **PyPLIF HIPPOS**  
   HIPPOS Is PyPLIF On Steroids.
-
-# The Future
-
-* **HIPPOS GUI**  
-  Develop web-based GUI for HIPPOS.
 * **GARUDA-DOCK**  
   Molecular docking tools with our *secret recipe* AKA
 our own *Scoring Function*. Will try to write it in Python for faster
 development. But if too slow when applied for virtual screening it will
 be written in C++ instead.
+* **VSSFlow**  
+  Virtual Screening Script Workflow.
+
+# The Future
+
+* **HIPPOS GUI**  
+  Develop web-based GUI for HIPPOS.
