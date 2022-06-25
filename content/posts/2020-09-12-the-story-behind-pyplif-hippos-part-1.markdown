@@ -1,0 +1,42 @@
+---
+categories: 
+  - computational-chemistry
+  - virtual-screening
+  - molecular-docking
+  - brain-dump
+comments: true
+date: "2020-09-12T10:30:00Z"
+subtitle: Welcome to Our Brand New Interaction Fingerprinting Tool... PyPLIF
+tags:
+  - pyplif
+  - hippos
+  - ifp
+  - interaction-fingerprinting
+title: The Story Behind PyPLIF HIPPOS (Part 1)
+---
+
+There are many ways to improve structure-based virtual screening, from something as simple as screening the ligand based on the physico-chemical properties (MW, number of H-donor, number of aromatic rings, pKa, etc.), using consensus docking, or even post-analysis using FEP-based method.
+
+One of the simplest and yet fruitful approach to enhance the virtual screening workflow is using interaction fingerprinting. It has been known for long time that certain interaction from certain residue holds more significance than others. And this is especially true when it comes to receptor, where some residue holds the key for agonism while some others for antagonism (or reverse agonism). This key idea, in turn can be used to analyze the interaction pattern (hence, interaction fingerprinting) to figure out if the ligand is a potential agonist, antagonist, or just a dud.
+
+When I was starting my research (in 2011) on interaction fingerprinting, I found that the earliest use of interaction fingerprinting is in 2004 by Deng et al. under the term Structural Interaction Fingerprinting (SIFt). I do not know if there is any earlier use than that, but if you do please comment below. Back then it was still difficult to find a software that could do interaction fingerprinting. The only (standalone) software I could find was Fingerprintlib by Marcou and Rognan (2007). It is free to use, and you can read the source code too. Now, unfortunately it uses OpenEye Chem library which isn't free back then. Back then, I wanted to use a free (both gratis and open source) tool for interaction fingerprinting, and I thought to myself maybe I could build one with Python programming language!
+
+First, to see if this idea could work I tried to find the alternative(s) for OpenEye Chem. That's when I found out that it turns out OEChem and Open Babel is actually derive from the same code! What a coincidence! And then I'm starting by analyzing the algorithm behind Fingerprintlib which is written in C++, alternating between the Fingerprintlib publication paper and reading the code I begin to understand how it works behind the scene. And luckily, the OEChem API and Open Babel API is very similar.
+
+The next step, and I think the most difficult part is when I have to learn the Open Babel library. As this is my first time doing a professional programming task, Open Babel is very complicated! There were not many examples on how to use Open Babel in Python library, most of the examples that I found is only from the documentation and O'Boyle blog. Therefore I spent 1 month of my time to learn Open Babel API by printing out the Open Babel module I am most likely used: OBMol, OBConversion, OBResidue, OBAtom, etc. then going through lots of trial and error to understand the objects, methods, input, and output from those modules.
+
+By the new year eve of 2012 I've got most of the thing I need to use Open Babel in my library, then I'm having my first meeting in a cafe with my colleague, Enade. I can't remember clearly, but for some reason I was riding my bicycle from my home to the cafe, which is about 9 km away as fast as I could that I arrived at the cafe in just 30 minutes LOL. If I remember correctly, the meeting itself was sudden, maybe because I shared some of my 'fantastic' progress to him about using Open Babel & Python to recognize protein structure. And he would like to immediately collaborate with me to produce our own interaction fingerprinting tool.
+
+One thing to note is that I was doing this purely out of passion, I didn't receive any compensation apart from having my name came first in our PyPLIF paper. I wasn't doing this to get money either. I really love to share my code to the open source community as I have already receive a lot from them. I also think that it is wonderful to share your work so that other people in the other side of the earth could use it for their work.
+
+One month later, by the end of January 2012. PyPLIF alpha is ready! Oh right, I haven't mentioned two important thing. First, PyPLIF can only read/analyze docking results from PLANTS, and second why named with PyPLIF? Back then we have two freely available molecular docking tools, AutoDock Vina and PLANTS. Back then me and Enade didn't use Vina because we didn't like the fact that we have to rely on GUI for every molecule preparation prior to docking (which is turns out to be not true). Second we would like to replicate the study from de Graaf (2011) on SBVS for fragment-like ligands of HRH1, which is using interaction fingerprinting and PLANTS as the docking tool. Since that study is a great success, surely there is a huge potential in using PLANTS and writing an Interaction Fingerprinting tool for PLANTS docking result.
+
+What about PyPLIF? Well, there is a tradition in Python package development where the name of the package begin with Py (which obviously stand for Python). And since the software can be used to analyze protein-ligand interaction hence the name, PyPLIF (Python-based Protein Ligand Interaction Fingerprinting).
+
+To check if PyPLIF working as intended we decided to use the simple interaction fingerprint in figure 2 from de Graaf (2011) study. After some comparison and visual inspection we managed to replicate the interaction fingerprint from that. The next step is comparing interaction fingerprint from the whole SBVS campaign. Thanks to the authors courtesy we managed to obtain the interaction fingerprint and start comparing the whole fingerprint. And... as expected there is a slight differences, which is makes sense because their interaction fingerprinting tool uses OEChem library and our tool uses Open Babel library which in some occasion would recognize molecule/atom in a different way.
+
+The next step is of course to publish our work. We didn't aim high back then, therefore we decided to publish PyPLIF in Bioinformation (IF: around 1 when we about to submit our work). And voila! It was accepted as is! No revision or whatsoever. Well, seems like we aim too low. But whatever, I guess that's all for now. The next thing I would like to share is about PyPLIF weaknesses and lack of features. But that will be on the next part.
+
+## History
+
+**1.0** article ready, without link, or picture. (2020-09-12)

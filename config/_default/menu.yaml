@@ -1,0 +1,21 @@
+main:
+  - identifier: about
+    name: about
+    url: /about/
+    weight: 10
+  - identifier: archives
+    name: archives
+    url: /archives/
+    weight: 20
+  - identifier: categories
+    name: categories
+    url: /categories/
+    weight: 30
+  - identifier: tags
+    name: tags
+    url: /tags/
+    weight: 40
+  - identifier: search
+    name: search
+    url: /search/
+    weight: 50

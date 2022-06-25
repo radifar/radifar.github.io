@@ -1,0 +1,19 @@
+baseURL: http://example.org/
+disablePathToLower: true
+defaultContentLanguage: en
+languageCode: en
+title: Radifar
+theme: PaperMod
+
+googleAnalytics: UA-169376222-1
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+disqusShortname: radifar-github-io.disqus.com
