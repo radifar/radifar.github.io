@@ -1,1 +1,3 @@
 User-agent: *
+Disallow:
+Sitemap: https://radifar.github.io/sitemap.xml
