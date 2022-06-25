@@ -6,13 +6,13 @@ categories:
   - brain-dump
 comments: true
 date: "2020-09-12T10:30:00Z"
-subtitle: Welcome to Our Brand New Interaction Fingerprinting Tool... PyPLIF
 tags:
   - pyplif
   - hippos
   - ifp
   - interaction-fingerprinting
 title: The Story Behind PyPLIF HIPPOS (Part 1)
+description: Welcome to Our Brand New Interaction Fingerprinting Tool... PyPLIF
 ---
 
 There are many ways to improve structure-based virtual screening, from something as simple as screening the ligand based on the physico-chemical properties (MW, number of H-donor, number of aromatic rings, pKa, etc.), using consensus docking, or even post-analysis using FEP-based method.

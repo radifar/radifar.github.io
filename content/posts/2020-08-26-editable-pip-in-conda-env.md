@@ -4,13 +4,13 @@ categories:
   - troubleshooting
 comments: true
 date: "2020-08-26T11:18:00Z"
-subtitle: When your pip development environment can not recognize the Conda environment
 tags: 
   - conda
   - open-babel
   - pip
   - python-environment
 title: Installing Open Babel with Pip
+description: When your pip development environment can not recognize the Conda environment
 ---
 
 So yesterday I spent at least 3 hours to deal with Python package development in Conda environment. So I wrote this post as a self-reminder, since the steps are somewhat long. And also for those of you who is facing the same problem as I do.
