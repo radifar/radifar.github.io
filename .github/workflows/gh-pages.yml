@@ -22,7 +22,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify --baseURL=https://radifar.github.io/hugoinaction-ga/
+        run: hugo --minify --baseURL=https://radifar.github.io/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
