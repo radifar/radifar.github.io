@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pip on Radifar</title>
+    <link>https://radifar.github.io/tags/pip/</link>
+    <description>Recent content in pip on Radifar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 26 Aug 2020 11:18:00 +0000</lastBuildDate><atom:link href="https://radifar.github.io/tags/pip/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installing Open Babel with Pip</title>
+      <link>https://radifar.github.io/posts/2020-08-26-editable-pip-in-conda-env/</link>
+      <pubDate>Wed, 26 Aug 2020 11:18:00 +0000</pubDate>
+      
+      <guid>https://radifar.github.io/posts/2020-08-26-editable-pip-in-conda-env/</guid>
+      <description>So yesterday I spent at least 3 hours to deal with Python package development in Conda environment. So I wrote this post as a self-reminder, since the steps are somewhat long. And also for those of you who is facing the same problem as I do.
+Why do I need to use pip when I can use Conda to install Open Babel If you&amp;rsquo;re an experienced Python package developer you should have known the following trick:</description>
+    </item>
+    
+  </channel>
+</rss>

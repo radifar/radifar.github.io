@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Radifar</title>
+    <link>https://radifar.github.io/</link>
+    <description>Recent content on Radifar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 12 Sep 2020 10:30:00 +0000</lastBuildDate><atom:link href="https://radifar.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Story Behind PyPLIF HIPPOS (Part 1)</title>
+      <link>https://radifar.github.io/posts/2020-09-12-the-story-behind-pyplif-hippos-part-1/</link>
+      <pubDate>Sat, 12 Sep 2020 10:30:00 +0000</pubDate>
+      
+      <guid>https://radifar.github.io/posts/2020-09-12-the-story-behind-pyplif-hippos-part-1/</guid>
+      <description>There are many ways to improve structure-based virtual screening, from something as simple as screening the ligand based on the physico-chemical properties (MW, number of H-donor, number of aromatic rings, pKa, etc.), using consensus docking, or even post-analysis using FEP-based method.
+One of the simplest and yet fruitful approach to enhance the virtual screening workflow is using interaction fingerprinting. It has been known for long time that certain interaction from certain residue holds more significance than others.</description>
+    </item>
+    
+    <item>
+      <title>Installing Open Babel with Pip</title>
+      <link>https://radifar.github.io/posts/2020-08-26-editable-pip-in-conda-env/</link>
+      <pubDate>Wed, 26 Aug 2020 11:18:00 +0000</pubDate>
+      
+      <guid>https://radifar.github.io/posts/2020-08-26-editable-pip-in-conda-env/</guid>
+      <description>So yesterday I spent at least 3 hours to deal with Python package development in Conda environment. So I wrote this post as a self-reminder, since the steps are somewhat long. And also for those of you who is facing the same problem as I do.
+Why do I need to use pip when I can use Conda to install Open Babel If you&amp;rsquo;re an experienced Python package developer you should have known the following trick:</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://radifar.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://radifar.github.io/about/</guid>
+      <description>Who Am I My name is Muhammad Radifar, but when you contact me just call me Radif. I am from Indonesia. Currently I am a
+ Independent Researcher @PICompS Freelancer Research Assistant Computational Chemist, experienced with  Molecular Dynamics  NAMD GROMACS   Homology Modeling  Modeller   Molecular Docking  AutoDock Vina PLANTS   Molecule Visualization  VMD     Software Engineer (Python), experienced with  Open Babel Jupyter Notebook Sphinx documentation   Full Stack Developer  Front End: Vue Back End: Django API: GraphQL    Would Like To Know Me Better?</description>
+    </item>
+    
+    <item>
+      <title>Archive</title>
+      <link>https://radifar.github.io/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://radifar.github.io/archives/</guid>
+      <description>archives</description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>https://radifar.github.io/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://radifar.github.io/search/</guid>
+      <description>search</description>
+    </item>
+    
+  </channel>
+</rss>

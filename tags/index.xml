@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Radifar</title>
+    <link>https://radifar.github.io/tags/</link>
+    <description>Recent content in Tags on Radifar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 12 Sep 2020 10:30:00 +0000</lastBuildDate><atom:link href="https://radifar.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hippos</title>
+      <link>https://radifar.github.io/tags/hippos/</link>
+      <pubDate>Sat, 12 Sep 2020 10:30:00 +0000</pubDate>
+      
+      <guid>https://radifar.github.io/tags/hippos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ifp</title>
+      <link>https://radifar.github.io/tags/ifp/</link>
+      <pubDate>Sat, 12 Sep 2020 10:30:00 +0000</pubDate>
+      
+      <guid>https://radifar.github.io/tags/ifp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>interaction-fingerprinting</title>
+      <link>https://radifar.github.io/tags/interaction-fingerprinting/</link>
+      <pubDate>Sat, 12 Sep 2020 10:30:00 +0000</pubDate>
+      
+      <guid>https://radifar.github.io/tags/interaction-fingerprinting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pyplif</title>
+      <link>https://radifar.github.io/tags/pyplif/</link>
+      <pubDate>Sat, 12 Sep 2020 10:30:00 +0000</pubDate>
+      
+      <guid>https://radifar.github.io/tags/pyplif/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>conda</title>
+      <link>https://radifar.github.io/tags/conda/</link>
+      <pubDate>Wed, 26 Aug 2020 11:18:00 +0000</pubDate>
+      
+      <guid>https://radifar.github.io/tags/conda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open-babel</title>
+      <link>https://radifar.github.io/tags/open-babel/</link>
+      <pubDate>Wed, 26 Aug 2020 11:18:00 +0000</pubDate>
+      
+      <guid>https://radifar.github.io/tags/open-babel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pip</title>
+      <link>https://radifar.github.io/tags/pip/</link>
+      <pubDate>Wed, 26 Aug 2020 11:18:00 +0000</pubDate>
+      
+      <guid>https://radifar.github.io/tags/pip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python-environment</title>
+      <link>https://radifar.github.io/tags/python-environment/</link>
+      <pubDate>Wed, 26 Aug 2020 11:18:00 +0000</pubDate>
+      
+      <guid>https://radifar.github.io/tags/python-environment/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

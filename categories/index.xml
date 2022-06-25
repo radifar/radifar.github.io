@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Radifar</title>
+    <link>https://radifar.github.io/categories/</link>
+    <description>Recent content in Categories on Radifar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 12 Sep 2020 10:30:00 +0000</lastBuildDate><atom:link href="https://radifar.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>brain-dump</title>
+      <link>https://radifar.github.io/categories/brain-dump/</link>
+      <pubDate>Sat, 12 Sep 2020 10:30:00 +0000</pubDate>
+      
+      <guid>https://radifar.github.io/categories/brain-dump/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>computational-chemistry</title>
+      <link>https://radifar.github.io/categories/computational-chemistry/</link>
+      <pubDate>Sat, 12 Sep 2020 10:30:00 +0000</pubDate>
+      
+      <guid>https://radifar.github.io/categories/computational-chemistry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>molecular-docking</title>
+      <link>https://radifar.github.io/categories/molecular-docking/</link>
+      <pubDate>Sat, 12 Sep 2020 10:30:00 +0000</pubDate>
+      
+      <guid>https://radifar.github.io/categories/molecular-docking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>virtual-screening</title>
+      <link>https://radifar.github.io/categories/virtual-screening/</link>
+      <pubDate>Sat, 12 Sep 2020 10:30:00 +0000</pubDate>
+      
+      <guid>https://radifar.github.io/categories/virtual-screening/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>troubleshooting</title>
+      <link>https://radifar.github.io/categories/troubleshooting/</link>
+      <pubDate>Wed, 26 Aug 2020 11:18:00 +0000</pubDate>
+      
+      <guid>https://radifar.github.io/categories/troubleshooting/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
