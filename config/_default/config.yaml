@@ -16,4 +16,4 @@ outputs:
     - RSS
     - JSON # is necessary
 
-disqusShortname: radifar-github-io.disqus.com
+disqusShortname: radifar-github-io
