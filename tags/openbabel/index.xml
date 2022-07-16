@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>openbabel on Radifar</title>
+    <link>https://radifar.github.io/tags/openbabel/</link>
+    <description>Recent content in openbabel on Radifar</description>
+    <image>
+      <url>https://radifar.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://radifar.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 16 Jul 2022 23:08:26 +0000</lastBuildDate><atom:link href="https://radifar.github.io/tags/openbabel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learn Open Babel in Python - 00 Setup</title>
+      <link>https://radifar.github.io/posts/learn-open-babel-python-00-setup/</link>
+      <pubDate>Sat, 16 Jul 2022 23:08:26 +0000</pubDate>
+      
+      <guid>https://radifar.github.io/posts/learn-open-babel-python-00-setup/</guid>
+      <description>Prerequisite  Basic command prompt Basic Python (variable type, collection, loop, decision, and functions) Python virtual environment (conda/mamba) Jupyter notebook/lab  Create new environment So first as always, start with creating new environment (preferably mamba). If you have never used mamba before and have some experience with conda then great, you can simply change every conda command with mamba and vice versa.
+Create new environment for this series using this command:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,13 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://radifar.github.io/categories/brain-dump/</loc>
-    <lastmod>2020-09-12T10:30:00+00:00</lastmod>
-  </url><url>
     <loc>https://radifar.github.io/categories/</loc>
-    <lastmod>2020-09-12T10:30:00+00:00</lastmod>
+    <lastmod>2022-07-16T23:08:26+00:00</lastmod>
+  </url><url>
+    <loc>https://radifar.github.io/categories/Cheminformatics/</loc>
+    <lastmod>2022-07-16T23:08:26+00:00</lastmod>
   </url><url>
     <loc>https://radifar.github.io/categories/computational-chemistry/</loc>
+    <lastmod>2022-07-16T23:08:26+00:00</lastmod>
+  </url><url>
+    <loc>https://radifar.github.io/series/Learn-Open-Babel-in-Python/</loc>
+    <lastmod>2022-07-16T23:08:26+00:00</lastmod>
+  </url><url>
+    <loc>https://radifar.github.io/posts/learn-open-babel-python-00-setup/</loc>
+    <lastmod>2022-07-16T23:08:26+00:00</lastmod>
+  </url><url>
+    <loc>https://radifar.github.io/tags/openbabel/</loc>
+    <lastmod>2022-07-16T23:08:26+00:00</lastmod>
+  </url><url>
+    <loc>https://radifar.github.io/posts/</loc>
+    <lastmod>2022-07-16T23:08:26+00:00</lastmod>
+  </url><url>
+    <loc>https://radifar.github.io/tags/python/</loc>
+    <lastmod>2022-07-16T23:08:26+00:00</lastmod>
+  </url><url>
+    <loc>https://radifar.github.io/</loc>
+    <lastmod>2022-07-16T23:08:26+00:00</lastmod>
+  </url><url>
+    <loc>https://radifar.github.io/series/</loc>
+    <lastmod>2022-07-16T23:08:26+00:00</lastmod>
+  </url><url>
+    <loc>https://radifar.github.io/tags/setup/</loc>
+    <lastmod>2022-07-16T23:08:26+00:00</lastmod>
+  </url><url>
+    <loc>https://radifar.github.io/tags/</loc>
+    <lastmod>2022-07-16T23:08:26+00:00</lastmod>
+  </url><url>
+    <loc>https://radifar.github.io/categories/brain-dump/</loc>
     <lastmod>2020-09-12T10:30:00+00:00</lastmod>
   </url><url>
     <loc>https://radifar.github.io/tags/hippos/</loc>
@@ -23,16 +53,7 @@
     <loc>https://radifar.github.io/categories/molecular-docking/</loc>
     <lastmod>2020-09-12T10:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://radifar.github.io/posts/</loc>
-    <lastmod>2020-09-12T10:30:00+00:00</lastmod>
-  </url><url>
     <loc>https://radifar.github.io/tags/pyplif/</loc>
-    <lastmod>2020-09-12T10:30:00+00:00</lastmod>
-  </url><url>
-    <loc>https://radifar.github.io/</loc>
-    <lastmod>2020-09-12T10:30:00+00:00</lastmod>
-  </url><url>
-    <loc>https://radifar.github.io/tags/</loc>
     <lastmod>2020-09-12T10:30:00+00:00</lastmod>
   </url><url>
     <loc>https://radifar.github.io/posts/2020-09-12-the-story-behind-pyplif-hippos-part-1/</loc>

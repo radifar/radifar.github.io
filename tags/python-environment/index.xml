@@ -17,8 +17,7 @@
       <pubDate>Wed, 26 Aug 2020 11:18:00 +0000</pubDate>
       
       <guid>https://radifar.github.io/posts/2020-08-26-editable-pip-in-conda-env/</guid>
-      <description>So yesterday I spent at least 3 hours to deal with Python package development in Conda environment. So I wrote this post as a self-reminder, since the steps are somewhat long. And also for those of you who is facing the same problem as I do.
-Why do I need to use pip when I can use Conda to install Open Babel If you&amp;rsquo;re an experienced Python package developer you should have known the following trick:</description>
+      <description>When your pip development environment can not recognize the Conda environment</description>
     </item>
     
   </channel>

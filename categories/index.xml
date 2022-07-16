@@ -10,22 +10,31 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Sep 2020 10:30:00 +0000</lastBuildDate><atom:link href="https://radifar.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Jul 2022 23:08:26 +0000</lastBuildDate><atom:link href="https://radifar.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>brain-dump</title>
-      <link>https://radifar.github.io/categories/brain-dump/</link>
-      <pubDate>Sat, 12 Sep 2020 10:30:00 +0000</pubDate>
+      <title>Cheminformatics</title>
+      <link>https://radifar.github.io/categories/Cheminformatics/</link>
+      <pubDate>Sat, 16 Jul 2022 23:08:26 +0000</pubDate>
       
-      <guid>https://radifar.github.io/categories/brain-dump/</guid>
+      <guid>https://radifar.github.io/categories/Cheminformatics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>computational-chemistry</title>
       <link>https://radifar.github.io/categories/computational-chemistry/</link>
-      <pubDate>Sat, 12 Sep 2020 10:30:00 +0000</pubDate>
+      <pubDate>Sat, 16 Jul 2022 23:08:26 +0000</pubDate>
       
       <guid>https://radifar.github.io/categories/computational-chemistry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>brain-dump</title>
+      <link>https://radifar.github.io/categories/brain-dump/</link>
+      <pubDate>Sat, 12 Sep 2020 10:30:00 +0000</pubDate>
+      
+      <guid>https://radifar.github.io/categories/brain-dump/</guid>
       <description></description>
     </item>
     

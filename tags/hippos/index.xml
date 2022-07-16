@@ -17,8 +17,7 @@
       <pubDate>Sat, 12 Sep 2020 10:30:00 +0000</pubDate>
       
       <guid>https://radifar.github.io/posts/2020-09-12-the-story-behind-pyplif-hippos-part-1/</guid>
-      <description>There are many ways to improve structure-based virtual screening, from something as simple as screening the ligand based on the physico-chemical properties (MW, number of H-donor, number of aromatic rings, pKa, etc.), using consensus docking, or even post-analysis using FEP-based method.
-One of the simplest and yet fruitful approach to enhance the virtual screening workflow is using interaction fingerprinting. It has been known for long time that certain interaction from certain residue holds more significance than others.</description>
+      <description>Welcome to Our Brand New Interaction Fingerprinting Tool... PyPLIF</description>
     </item>
     
   </channel>
