@@ -7,15 +7,19 @@ main:
     name: archives
     url: /archives/
     weight: 20
+  - identifier: series
+    name: series
+    url: /series/
+    weight: 30
   - identifier: categories
     name: categories
     url: /categories/
-    weight: 30
+    weight: 40
   - identifier: tags
     name: tags
     url: /tags/
-    weight: 40
+    weight: 50
   - identifier: search
     name: search
     url: /search/
-    weight: 50
+    weight: 60
