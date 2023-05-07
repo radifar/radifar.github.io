@@ -5,12 +5,24 @@
     <link>https://radifar.github.io/tags/interaction-fingerprinting/</link>
     <description>Recent content in interaction-fingerprinting on Radifar</description>
     <image>
+      <title>Radifar</title>
       <url>https://radifar.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://radifar.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Sep 2020 10:30:00 +0000</lastBuildDate><atom:link href="https://radifar.github.io/tags/interaction-fingerprinting/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 May 2023 04:15:02 +0000</lastBuildDate><atom:link href="https://radifar.github.io/tags/interaction-fingerprinting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lets Create A Domain-Specific Language for Molecular Interaction Analysis!</title>
+      <link>https://radifar.github.io/posts/lets-create-domain-specific-language-molecular-interaction-analysis/</link>
+      <pubDate>Fri, 05 May 2023 04:15:02 +0000</pubDate>
+      
+      <guid>https://radifar.github.io/posts/lets-create-domain-specific-language-molecular-interaction-analysis/</guid>
+      <description>What is a Domain-Specific Language? It is more common than you think. Few of us – computational chemists – have heard the term Domain-Specific Language (DSL for short), even though this is somewhat ubiquitous in our workflow, especially when dealing with molecule visualisation. Don&amp;rsquo;t you believe me? Check out the command you type on VMD, PyMOL, YASARA, or Chimera.
+YASARA command:
+LoadPDB 1crn, download=yes AutoPosOriObj 1, x = 1, y = 10, z = 0, alpha = 0, beta = 0, gamma = 0 ColorRes cys, green ShowRes cys BallStickRes cys AutoRotateObj 1, Y = 1 wait 180 AutoRotateObj 1, Y = 0 ZoomRes Cys 16, step = 50 wait 100 ZoomRes all VMD Tcl/Tk command:</description>
+    </item>
+    
     <item>
       <title>The Story Behind PyPLIF HIPPOS (Part 1)</title>
       <link>https://radifar.github.io/posts/2020-09-12-the-story-behind-pyplif-hippos-part-1/</link>
