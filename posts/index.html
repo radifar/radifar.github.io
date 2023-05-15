@@ -89,28 +89,15 @@ Posts
 </header>
 <article class=post-entry>
 <header class=entry-header>
-<h2>Lets Create A Domain-Specific Language for Molecular Interaction Analysis!
+<h2>Installing Open Babel with Pip
 </h2>
 </header>
 <div class=entry-content>
-<p>What is a Domain-Specific Language? It is more common than you think. Few of us – computational chemists – have heard the term Domain-Specific Language (DSL for short), even though this is somewhat ubiquitous in our workflow, especially when dealing with molecule visualisation. Don’t you believe me? Check out the command you type on VMD, PyMOL, YASARA, or Chimera.
-YASARA command:
-LoadPDB 1crn, download=yes AutoPosOriObj 1, x = 1, y = 10, z = 0, alpha = 0, beta = 0, gamma = 0 ColorRes cys, green ShowRes cys BallStickRes cys AutoRotateObj 1, Y = 1 wait 180 AutoRotateObj 1, Y = 0 ZoomRes Cys 16, step = 50 wait 100 ZoomRes all VMD Tcl/Tk command:...</p>
+<p>So yesterday I spent at least 3 hours to deal with Python package development in Conda environment. So I wrote this post as a self-reminder, since the steps are somewhat long. And also for those of you who is facing the same problem as I do.
+Why do I need to use pip when I can use Conda to install Open Babel If you’re an experienced Python package developer you should have known the following trick:...</p>
 </div>
-<footer class=entry-footer><span title="2023-05-05 04:15:02.16 +0000 UTC">May 5, 2023</span>&nbsp;·&nbsp;8 min&nbsp;·&nbsp;1550 words&nbsp;·&nbsp;Muhammad Radifar</footer>
-<a class=entry-link aria-label="post link to Lets Create A Domain-Specific Language for Molecular Interaction Analysis!" href=https://radifar.github.io/posts/lets-create-domain-specific-language-molecular-interaction-analysis/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Learn Open Babel in Python - 00 Setup
-</h2>
-</header>
-<div class=entry-content>
-<p>Prerequisite Basic command prompt Basic Python (variable type, collection, loop, decision, and functions) Python virtual environment (conda/mamba) Jupyter notebook/lab Create new environment So first as always, start with creating new environment (preferably mamba). If you have never used mamba before and have some experience with conda then great, you can simply change every conda command with mamba and vice versa.
-Create new environment for this series using this command:...</p>
-</div>
-<footer class=entry-footer><span title="2022-07-16 23:08:26.5 +0000 UTC">July 16, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;467 words&nbsp;·&nbsp;Muhammad Radifar</footer>
-<a class=entry-link aria-label="post link to Learn Open Babel in Python - 00 Setup" href=https://radifar.github.io/posts/learn-open-babel-python-00-setup/></a>
+<footer class=entry-footer><span title="2020-08-26 11:18:00 +0000 UTC">August 26, 2020</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;665 words&nbsp;·&nbsp;Muhammad Radifar</footer>
+<a class=entry-link aria-label="post link to Installing Open Babel with Pip" href=https://radifar.github.io/posts/2020-08-26-editable-pip-in-conda-env/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
@@ -126,15 +113,28 @@ One of the simplest and yet fruitful approach to enhance the virtual screening w
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>Installing Open Babel with Pip
+<h2>Learn Open Babel in Python - 00 Setup
 </h2>
 </header>
 <div class=entry-content>
-<p>So yesterday I spent at least 3 hours to deal with Python package development in Conda environment. So I wrote this post as a self-reminder, since the steps are somewhat long. And also for those of you who is facing the same problem as I do.
-Why do I need to use pip when I can use Conda to install Open Babel If you’re an experienced Python package developer you should have known the following trick:...</p>
+<p>Prerequisite Basic command prompt Basic Python (variable type, collection, loop, decision, and functions) Python virtual environment (conda/mamba) Jupyter notebook/lab Create new environment So first as always, start with creating new environment (preferably mamba). If you have never used mamba before and have some experience with conda then great, you can simply change every conda command with mamba and vice versa.
+Create new environment for this series using this command:...</p>
 </div>
-<footer class=entry-footer><span title="2020-08-26 11:18:00 +0000 UTC">August 26, 2020</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;665 words&nbsp;·&nbsp;Muhammad Radifar</footer>
-<a class=entry-link aria-label="post link to Installing Open Babel with Pip" href=https://radifar.github.io/posts/2020-08-26-editable-pip-in-conda-env/></a>
+<footer class=entry-footer><span title="2022-07-16 23:08:26.5 +0000 UTC">July 16, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;467 words&nbsp;·&nbsp;Muhammad Radifar</footer>
+<a class=entry-link aria-label="post link to Learn Open Babel in Python - 00 Setup" href=https://radifar.github.io/posts/learn-open-babel-python-00-setup/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Lets Create A Domain-Specific Language for Molecular Interaction Analysis!
+</h2>
+</header>
+<div class=entry-content>
+<p>What is a Domain-Specific Language? It is more common than you think. Few of us – computational chemists – have heard the term Domain-Specific Language (DSL for short), even though this is somewhat ubiquitous in our workflow, especially when dealing with molecule visualisation. Don’t you believe me? Check out the command you type on VMD, PyMOL, YASARA, or Chimera.
+YASARA command:
+LoadPDB 1crn, download=yes AutoPosOriObj 1, x = 1, y = 10, z = 0, alpha = 0, beta = 0, gamma = 0 ColorRes cys, green ShowRes cys BallStickRes cys AutoRotateObj 1, Y = 1 wait 180 AutoRotateObj 1, Y = 0 ZoomRes Cys 16, step = 50 wait 100 ZoomRes all VMD Tcl/Tk command:...</p>
+</div>
+<footer class=entry-footer><span title="2023-05-05 04:15:02.16 +0000 UTC">May 5, 2023</span>&nbsp;·&nbsp;8 min&nbsp;·&nbsp;1550 words&nbsp;·&nbsp;Muhammad Radifar</footer>
+<a class=entry-link aria-label="post link to Lets Create A Domain-Specific Language for Molecular Interaction Analysis!" href=https://radifar.github.io/posts/lets-create-domain-specific-language-molecular-interaction-analysis/></a>
 </article>
 </main>
 <footer class=footer>
