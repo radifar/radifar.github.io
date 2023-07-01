@@ -20,23 +20,43 @@ In the previous post, I explained a bit about DSL and why we need DSL for molecu
 
 To do so, I will classify the interaction into five categories (or descriptor scheme). Start with the non-covalent interactions, then contact- or proximity-based approach, moiety/group interaction, pharmacophore or hotspot-based interaction, and anti-interaction.
 
-For each interaction scheme, I will start with the definition, how it begin to exist and how it evolved from time to time, and the significance of this scheme, especially in drug discovery research. And when possible, I would like to discuss how each interaction can be presented and scored using the scoring function.
+For each interaction scheme, I will start with the definition, how it begin to exist and how it evolved from time to time, and the significance of this scheme, especially in drug discovery research. And when possible, I would like to discuss how each interaction can be presented and scored using the scoring function. Then for each interaction I would like to describe the amount of detail and/or implementation that I would like to cover in our DSL.
 
 ## Non-covalent Interactions
 
-Right after the humanity figure out the structure of an atom and how atom bonded to each other via covalent or ionic bond, we shift a lot of our attention to non-covalent interactions. We believe that the non-covalent interaction is the key to many substance properties and behavior. In molecular biology and medicinal chemistry we know that non-covalent interaction govern subcellular, cellular, or even physiological activities, these include molecular packing, signal transduction of hormone and neurotransmitter, cell differentiation, antigen recognition by antibody, directed cellular movement, etc.
+Right after the humanity figure out the structure of an atom and how atom bonded to each other via covalent or ionic bond, we shift a lot of our attention to non-covalent interactions (NCI). We believe that the NCI is the key to many substance properties and behavior. In molecular biology and medicinal chemistry we know that NCI govern subcellular, cellular, or even physiological activities, these include molecular packing, signal transduction of hormone and neurotransmitter, cell differentiation, antigen recognition by antibody, directed cellular movement, etc.
 
-No matter how complex the interactions are, there are pattern for every activity which can be discovered through analysis. The first attempt to analyse the pattern of these interaction was begin with the invention of structural interaction fingerprint (SIFt) by Deng et al. (2004). SIFt classify non-covalent interactions into seven interactions: contact, mainchain, sidechain, polar, nonpolar, H-bond acceptor, and H-bond donor.
+No matter how complex the interactions are, there are pattern for every activity which can be discovered through analysis. The first attempt to analyse the pattern of these interaction was begin with the invention of structural interaction fingerprint (SIFt) by Deng et al. (2004). SIFt classify NCI into seven interactions: contact, mainchain, sidechain, polar, nonpolar, H-bond acceptor, and H-bond donor.
 
-Later Marcou and Rognan (2007) developed a more fine-grained IFP based on SIFt, for example nonspecific interaction like contact, mainchain, and sidechain are removed. While nonpolar can be divided into hydrophobic and aromatic interaction, the latter can be further divided into face-to-face and edge-to-face, and thus the nonpolar interaction divided into three interactions. Likewise the polar interaction can be divided into two ionic/electrostatic interaction (protein as cation or as anion), hydrogen bond is actually also polar but it deserves its own definition due to its highly specific manner. Hydrogen bond itself can be divided into strong H-bond and weak H-bond, and each of them can be divided into two, protein as H-bond donor or acceptor, which give four different H-bond. Last, there are two miscellaneous interactions, pi-cation and metal complexation. Overall there are 11 types of interaction in the IFP method described by Marcou and Rognan, and it became the basis of IFP method used by various IFP tools like PyPLIF, Arpeggio, PLIP, ProLIF, FinggeRNAt etc.
+Later Marcou and Rognan (2007) developed a more fine-grained IFP based on SIFt (Figure 1), for example nonspecific interaction like contact, mainchain, and sidechain are removed. Then nonpolar interaction can be divided into hydrophobic and aromatic interaction, the latter can be further divided into face-to-face and edge-to-face, and thus the nonpolar interaction divided into three interactions. Likewise the polar interaction can be divided into two ionic/electrostatic interaction (protein as cation or as anion), hydrogen bond is actually also polar but it deserves its own definition due to its highly specific manner. Hydrogen bond itself can be divided into strong H-bond and weak H-bond, and each of them can be divided into two, protein as H-bond donor or acceptor, which give four different H-bond. Last, there are two miscellaneous interactions, pi-cation and metal complexation. Overall there are 11 types of interaction in the IFP method described by Marcou and Rognan, and it became the basis of IFP method used by various IFP tools like PyPLIF, Arpeggio, PLIP, ProLIF, FinggeRNAt etc.
 
-The term fingerprint in IFP is actually came from the specific Boolean pattern that derive from the interaction between two molecules. As this method was born from the need to discover new drug candidate from chemical library using protein structure, protein residue became the de facto unit of a fingerprint. Thus, IFP is actually an aggregation of a set of interactions in a residue encoded in Boolean value. The more interactions and residues involved, the more specific and/or noisy the pattern is.
+![](/assets/img/the-beginning-of-ifp.png)
 
-The resulting fingerprint can be used in many ways, but the most common one is to score the pattern based on known reference.
+Figure 1. The beginning of IFP
+
+The term fingerprint in IFP is actually came from the specific Boolean pattern that derive from the interaction between two molecules. As this method was born from the need to discover new drug candidate from chemical library using protein structure, protein residue became the de facto unit of a fingerprint. Thus, IFP is actually an aggregation of interactions formed by several residues encoded in Boolean value AKA bitstring or bitvector (Figure 2). The more interactions and residues involved, the more specific and/or noisy the pattern is.
+
+![](/assets/img/complex-v-bitstring.png)
+
+Figure 2. From protein-ligand complex to noncovalent interaction identification to interaction fingerprint in the form of bitstring. (picture taken and modified from [Racz et al. 2018](https://doi.org/10.1186/s13321-018-0302-y))
+
+Although seemingly simple, the bitstring can be used to score the protein-ligand complex and enrich hits in a virtual screening campaign result. This is possible because bitstring is a summary of the interaction between protein and ligand, and thus comparing the bitstring of a test ligand against the bitstring of known actives will reveal the potential activity of the test ligand. Some of the commonly used similarity coefficient are Tanimoto / Jaccard coefficient, Euclidean distance, Manhattan distance, etc.
+
+Now I would like to summarise the NCI that I would like to cover in our DSL. And to make this work easier I will begin with summarising the interaction covered by Fingerprintlib / IChem, PLIP, Arpeggio, ProLIF, and FingeRNAt.
+
+![](/assets/img/Interaction-review.png)
+
+It is interesting to note that there is a pattern in the interaction coverage. In general we can see that the IFP tools are divided into two broad category. The first one is drug discovery oriented and the second one is bioinformatic and proteomic oriented. The one geared towards drug discovery research are usually concerned more with direct interaction rather than the bridged one. And it gives more attention to tighter geometric criteria, such as by differentiating face to face and edge to face aromatic ring interactions, and ignoring the polar interactions which is similar to hydrogen bonds albeit with loose geometric criteria.
+
+On the other hand, the one oriented towards bioinformatic and proteomic is usually more nucleic acid friendly and thus give more concern with interactions commonly happen to nucleic acids, such as ion or water mediated interaction. A clear example for this is PLIP and FingeRNAt.
+
+In any case, it is possible to incorporate all non-covalent interactions from those IFP tools, and as it is highly possible that bioinformaticians using this DSL, IMO it would be good idea to include them all into this DSL.
 
 ## Contact- or Proximity-based approach
 
-This is especially important for coarse-grained interaction like in MARTINI forcefield.
+Contact or proximity-based interaction can be defined as a non-specific interaction using arbitrary cutoff. This interaction can be useful in exploring the interaction between macromolecules or between beads in coarse-grained molecular dynamics.
+
+This interaction can also be used to extract 
 
 Various descriptor scheme. Element, Sybil, CREDO.
 
