@@ -110,7 +110,7 @@ On the other end of the spectrum, there is [ProLIF](https://doi.org/10.1186/s133
 
 The only caveat is, first of all, you should be able to use Python language to a certain degree of mastery. Second, if you are doing an edge case study, there is a chance you have to extend the deeper level implementation in ProLIF which IMO is not trivial.
 
-Also, although in theory, it is possible to express every program domain using Python, ProLIF, and RDKit (as one of ProLIF dependencies), in practice trying to implement a program domain that is not implemented by the ProLIF library will not be easy. For example, we can observe in the ProLIF community that few demanded ProLIF be able to present the interaction result at the atomic level. And to overcome this limitation, the ProLIF developer has to change the core source code so that the interactions are not only registered at the residue level but also at the atomic level.
+Also, although in theory, it is possible to express every program domain using Python, ProLIF, and RDKit (as one of ProLIF dependencies), in practice trying to implement a program domain that is not implemented by the ProLIF library will not be easy. For example, we can observe in the ProLIF community that [few](https://github.com/chemosim-lab/ProLIF/issues/56) [demanded](https://github.com/chemosim-lab/ProLIF/issues/71) ProLIF be able to present the interaction result at the atomic level. And to overcome this limitation, the ProLIF developer [has to change the core source code](https://github.com/chemosim-lab/ProLIF/pull/116) so that the interactions are not only registered at the residue level but also at the atomic level.
 
 Whichever the tools that computational chemist use, it seems like there is no end to the creativity and expressiveness in interaction fingerprinting. The feature demands for IFP tools are incredible, starting from support for various file formats, geometric criteria for each interaction, atom typing, molecular interaction variety (nonpolar, electrostatic, pi, etc.), similarity scoring and weighting algorithm, molecule preparation, and presentation of the analysis result. The vastness of the workflow and use case for this methodology could overwhelm the developer of the IFP tool.
 
@@ -148,3 +148,6 @@ present all at bitstring level into cyp3a4_bitstring.txt
 They may seem so simple at first, but what is so incredible and beautiful about this language is how clear and concise yet at the same time, it can incorporate each detail step by step.
 
 And needlessly to say, it is still very simple and may look like a toy. To make it far more powerful we will have to decide the (molecular interaction) domain we are trying to cover. Then we can decide how much control or implementation we could bestow upon our dear user. Something that I will present in the next post.
+
+Revision Note:
+1. Oct 25, 2023: Add link to ProLIF feature request
