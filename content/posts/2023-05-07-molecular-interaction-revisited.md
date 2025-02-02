@@ -40,7 +40,7 @@ The term fingerprint in IFP is actually came from the specific Boolean pattern t
 
 Figure 2. From protein-ligand complex to noncovalent interaction identification to interaction fingerprint in the form of bitstring. (picture taken and modified from [Racz et al. 2018](https://doi.org/10.1186/s13321-018-0302-y))
 
-Although seemingly simple, the bitstring can be used to score the protein-ligand complex and enrich hits in a virtual screening campaign result. This is possible because bitstring is a summary of the interaction between protein and ligand, and thus comparing the bitstring of a test ligand against the bitstring of known actives will reveal the potential activity of the test ligand. Some of the commonly used similarity coefficient are Tanimoto / Jaccard coefficient, Euclidean distance, Manhattan distance, etc.
+Although seemingly simple, the bitstring can be used to score the protein-ligand complex and enrich hits in a virtual screening campaign result. This is possible because bitstring is a summary or simple description of the interaction between protein and ligand, and thus comparing the bitstring of a test ligand against the bitstring of known actives will reveal the potential activity of the test ligand. Some of the commonly used similarity coefficient are Tanimoto / Jaccard coefficient, Euclidean distance, Manhattan distance, etc.
 
 Now I would like to summarise the NCI that I would like to cover in our DSL. And to make this work easier I will begin with summarising the interaction covered by Fingerprintlib / IChem, PLIP, Arpeggio, ProLIF, and FingeRNAt.
 
@@ -54,13 +54,24 @@ In any case, it is possible to incorporate all non-covalent interactions from th
 
 ## Contact- or Proximity-based approach
 
-Contact or proximity-based interaction can be defined as a non-specific interaction using arbitrary cutoff. This interaction can be useful in exploring the interaction between macromolecules or between beads in coarse-grained molecular dynamics.
+Contact or proximity-based interaction can be defined as a non-specific interaction using arbitrary cutoff. Unlike the NCI, this interaction does not necessarily grounded on physical laws or nature, therefore this interaction is focused on distance (which mean loose geometric criteria) combined with various atom typing or descriptor scheme. By doing so, hopefully some interaction pattern would emerge which can be exploited for specific use case like virtual screening, analysing the mechanisme of large scale protein movement, parameterising force field for molecular dynamics, etc.
 
-This interaction can also be used to extract 
+The distance used can be based on physical law (total VdW radius of atom pair) as demonstrated with contact or clash interaction in Arpeggio, or it can be arbitrary atom pair and arbitrary distance. While the former one is pretty much self explanatory and the distance is derived from experimental measurement, the latter use large distance coverage which is useful for long-range interaction whether it is atom-atom pair or group-group interaction. An interesting use case of arbitrary distance is by using large distance cutoff, binning the distance into bitstrings (e.g., 0-2 Angstrom for first bit, 2-4 Angstrom for second bit and so on), then analyze the data using Machine Learning as demonstrated by Ballester, Schreyer, and Blundell (2014). From this study, it appear that large distance cutoff could increase virtual screening performance, which could indicate the importance of long range interaction.
 
-Various descriptor scheme. Element, Sybil, CREDO.
+Another notable component of contact or proximity-based interaction is the atom typing or descriptor scheme. To give some idea about atom typing is by looking at how the atom typed in NCI. It is a common practice in interaction fingerprinting to select several descriptor of interest.
 
 ## Moiety or group interactions
+
+Moiety or group interaction is pretty much similar to contact- or proximity-based interaction, the only different is instead of using atomic level description, this interaction group several atom together. For example the interaction of amino acid side chain with sugar or phosphate moiety of a small molecule, or maybe even something grand like the interaction between secondary structures or protein subdomains.
+
+This kind of interaction is essential to elucidate the molecular recognition between macromolecules, for example the binding of a virus towards its receptor on a cell membrane, molecular signaling, protein binding to nucleic acid, or antibody antigen interaction. Also, it is also important for polymeric interaction like in hydrogel matrix, nanocapsules, or nanoliposomes.
+
+Traditional approach in group interaction:
+1. contact map analysis, then analyze the interaction via distance matrix to figure out the (average) distance of both protein surface (see Rpn10-ubiquitin paper)
+2. Residue type interaction (polar-polar, polar-charged, charged-charged, apolar-polar, apolar-apolar, charged-apolar)
+
+Although seemingly simple, there are variety of problem with this type of interaction:
+1. How should we classify the groups? Is it based on common moiety classification, or the combination of moiety.
 
 Substructure to derive semantic. (Moltrans)
 
