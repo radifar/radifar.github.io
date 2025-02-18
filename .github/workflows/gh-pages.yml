@@ -22,8 +22,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.119.0'
-          extended: true
+          hugo-version: 'latest'
 
       - name: Build
         run: hugo --minify --baseURL=https://radifar.github.io/
