@@ -9,125 +9,135 @@
       <url>https://radifar.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://radifar.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.144.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 May 2023 04:15:02 +0000</lastBuildDate><atom:link href="https://radifar.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Feb 2025 03:50:51 +0000</lastBuildDate>
+    <atom:link href="https://radifar.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Molecular Modeling</title>
+      <link>https://radifar.github.io/tags/Molecular-Modeling/</link>
+      <pubDate>Tue, 18 Feb 2025 03:50:51 +0000</pubDate>
+      <guid>https://radifar.github.io/tags/Molecular-Modeling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Molecular Simulation</title>
+      <link>https://radifar.github.io/tags/Molecular-Simulation/</link>
+      <pubDate>Tue, 18 Feb 2025 03:50:51 +0000</pubDate>
+      <guid>https://radifar.github.io/tags/Molecular-Simulation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PK</title>
+      <link>https://radifar.github.io/tags/pK/</link>
+      <pubDate>Tue, 18 Feb 2025 03:50:51 +0000</pubDate>
+      <guid>https://radifar.github.io/tags/pK/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Protein</title>
+      <link>https://radifar.github.io/tags/Protein/</link>
+      <pubDate>Tue, 18 Feb 2025 03:50:51 +0000</pubDate>
+      <guid>https://radifar.github.io/tags/Protein/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Protonation</title>
+      <link>https://radifar.github.io/tags/Protonation/</link>
+      <pubDate>Tue, 18 Feb 2025 03:50:51 +0000</pubDate>
+      <guid>https://radifar.github.io/tags/Protonation/</guid>
+      <description></description>
+    </item>
     <item>
       <title>DSL</title>
       <link>https://radifar.github.io/tags/DSL/</link>
       <pubDate>Fri, 05 May 2023 04:15:02 +0000</pubDate>
-      
       <guid>https://radifar.github.io/tags/DSL/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>interaction-fingerprinting</title>
+      <title>Interaction-Fingerprinting</title>
       <link>https://radifar.github.io/tags/interaction-fingerprinting/</link>
       <pubDate>Fri, 05 May 2023 04:15:02 +0000</pubDate>
-      
       <guid>https://radifar.github.io/tags/interaction-fingerprinting/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>lark</title>
+      <title>Lark</title>
       <link>https://radifar.github.io/tags/lark/</link>
       <pubDate>Fri, 05 May 2023 04:15:02 +0000</pubDate>
-      
       <guid>https://radifar.github.io/tags/lark/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>python</title>
+      <title>Python</title>
       <link>https://radifar.github.io/tags/python/</link>
       <pubDate>Fri, 05 May 2023 04:15:02 +0000</pubDate>
-      
       <guid>https://radifar.github.io/tags/python/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>openbabel</title>
+      <title>Openbabel</title>
       <link>https://radifar.github.io/tags/openbabel/</link>
       <pubDate>Sat, 16 Jul 2022 23:08:26 +0000</pubDate>
-      
       <guid>https://radifar.github.io/tags/openbabel/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>setup</title>
+      <title>Setup</title>
       <link>https://radifar.github.io/tags/setup/</link>
       <pubDate>Sat, 16 Jul 2022 23:08:26 +0000</pubDate>
-      
       <guid>https://radifar.github.io/tags/setup/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>hippos</title>
+      <title>Hippos</title>
       <link>https://radifar.github.io/tags/hippos/</link>
       <pubDate>Sat, 12 Sep 2020 10:30:00 +0000</pubDate>
-      
       <guid>https://radifar.github.io/tags/hippos/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ifp</title>
+      <title>Ifp</title>
       <link>https://radifar.github.io/tags/ifp/</link>
       <pubDate>Sat, 12 Sep 2020 10:30:00 +0000</pubDate>
-      
       <guid>https://radifar.github.io/tags/ifp/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>pyplif</title>
+      <title>Pyplif</title>
       <link>https://radifar.github.io/tags/pyplif/</link>
       <pubDate>Sat, 12 Sep 2020 10:30:00 +0000</pubDate>
-      
       <guid>https://radifar.github.io/tags/pyplif/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>conda</title>
+      <title>Conda</title>
       <link>https://radifar.github.io/tags/conda/</link>
       <pubDate>Wed, 26 Aug 2020 11:18:00 +0000</pubDate>
-      
       <guid>https://radifar.github.io/tags/conda/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>open-babel</title>
+      <title>Open-Babel</title>
       <link>https://radifar.github.io/tags/open-babel/</link>
       <pubDate>Wed, 26 Aug 2020 11:18:00 +0000</pubDate>
-      
       <guid>https://radifar.github.io/tags/open-babel/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>pip</title>
+      <title>Pip</title>
       <link>https://radifar.github.io/tags/pip/</link>
       <pubDate>Wed, 26 Aug 2020 11:18:00 +0000</pubDate>
-      
       <guid>https://radifar.github.io/tags/pip/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>python-environment</title>
+      <title>Python-Environment</title>
       <link>https://radifar.github.io/tags/python-environment/</link>
       <pubDate>Wed, 26 Aug 2020 11:18:00 +0000</pubDate>
-      
       <guid>https://radifar.github.io/tags/python-environment/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

@@ -9,19 +9,30 @@
       <url>https://radifar.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://radifar.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.144.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 May 2023 04:15:02 +0000</lastBuildDate><atom:link href="https://radifar.github.io/tags/DSL/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 May 2023 04:15:02 +0000</lastBuildDate>
+    <atom:link href="https://radifar.github.io/tags/DSL/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lets Create A Domain-Specific Language for Molecular Interaction Analysis!</title>
       <link>https://radifar.github.io/posts/lets-create-domain-specific-language-molecular-interaction-analysis/</link>
       <pubDate>Fri, 05 May 2023 04:15:02 +0000</pubDate>
-      
       <guid>https://radifar.github.io/posts/lets-create-domain-specific-language-molecular-interaction-analysis/</guid>
-      <description>What is a Domain-Specific Language? It is more common than you think. Few of us – computational chemists – have heard the term Domain-Specific Language (DSL for short), even though this is somewhat ubiquitous in our workflow, especially when dealing with molecule visualisation. Don&amp;rsquo;t you believe me? Check out the command you type on VMD, PyMOL, YASARA, or Chimera.
-YASARA command:
-LoadPDB 1crn, download=yes AutoPosOriObj 1, x = 1, y = 10, z = 0, alpha = 0, beta = 0, gamma = 0 ColorRes cys, green ShowRes cys BallStickRes cys AutoRotateObj 1, Y = 1 wait 180 AutoRotateObj 1, Y = 0 ZoomRes Cys 16, step = 50 wait 100 ZoomRes all VMD Tcl/Tk command:</description>
+      <description>&lt;h2 id=&#34;what-is-a-domain-specific-language-it-is-more-common-than-you-think&#34;&gt;What is a Domain-Specific Language? It is more common than you think.&lt;/h2&gt;
+&lt;p&gt;Few of us – computational chemists – have heard the term Domain-Specific Language (DSL for short), even though this is somewhat ubiquitous in our workflow, especially when dealing with molecule visualisation. Don&amp;rsquo;t you believe me? Check out the command you type on VMD, PyMOL, YASARA, or Chimera.&lt;/p&gt;
+&lt;p&gt;YASARA command:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-yasara&#34; data-lang=&#34;yasara&#34;&gt;LoadPDB 1crn, download=yes
+AutoPosOriObj 1, x = 1, y = 10, z = 0, alpha = 0, beta = 0, gamma = 0
+ColorRes cys, green
+ShowRes cys
+BallStickRes cys
+AutoRotateObj 1, Y = 1
+wait 180
+AutoRotateObj 1, Y = 0
+ZoomRes Cys 16, step = 50
+wait 100
+ZoomRes all
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;VMD Tcl/Tk command:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

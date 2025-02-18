@@ -9,18 +9,27 @@
       <url>https://radifar.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://radifar.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.144.0</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 16 Jul 2022 23:08:26 +0000</lastBuildDate><atom:link href="https://radifar.github.io/categories/Cheminformatics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Jul 2022 23:08:26 +0000</lastBuildDate>
+    <atom:link href="https://radifar.github.io/categories/Cheminformatics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learn Open Babel in Python - 00 Setup</title>
       <link>https://radifar.github.io/posts/learn-open-babel-python-00-setup/</link>
       <pubDate>Sat, 16 Jul 2022 23:08:26 +0000</pubDate>
-      
       <guid>https://radifar.github.io/posts/learn-open-babel-python-00-setup/</guid>
-      <description>Prerequisite  Basic command prompt Basic Python (variable type, collection, loop, decision, and functions) Python virtual environment (conda/mamba) Jupyter notebook/lab  Create new environment So first as always, start with creating new environment (preferably mamba). If you have never used mamba before and have some experience with conda then great, you can simply change every conda command with mamba and vice versa.
-Create new environment for this series using this command:</description>
+      <description>&lt;h2 id=&#34;prerequisite&#34;&gt;Prerequisite&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Basic command prompt&lt;/li&gt;
+&lt;li&gt;Basic Python (variable type, collection, loop, decision, and functions)&lt;/li&gt;
+&lt;li&gt;Python virtual environment (conda/mamba)&lt;/li&gt;
+&lt;li&gt;Jupyter notebook/lab&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;create-new-environment&#34;&gt;Create new environment&lt;/h2&gt;
+&lt;p&gt;So first as always, start with creating new environment (preferably mamba). If you have never used mamba before and have some experience with conda then great, you can simply change every conda command with mamba and vice versa.&lt;/p&gt;
+&lt;p&gt;Create new environment for this series using this command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mamba create -n learn-open-babel &lt;span class=&#34;nv&#34;&gt;python&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;3.9 openbabel pandas jupyterlab rich
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Brief explanation for the command above:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

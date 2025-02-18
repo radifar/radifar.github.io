@@ -9,62 +9,51 @@
       <url>https://radifar.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://radifar.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.144.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 May 2023 04:15:02 +0000</lastBuildDate><atom:link href="https://radifar.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 May 2023 04:15:02 +0000</lastBuildDate>
+    <atom:link href="https://radifar.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>computational-chemistry</title>
+      <title>Computational-Chemistry</title>
       <link>https://radifar.github.io/categories/computational-chemistry/</link>
       <pubDate>Fri, 05 May 2023 04:15:02 +0000</pubDate>
-      
       <guid>https://radifar.github.io/categories/computational-chemistry/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Cheminformatics</title>
       <link>https://radifar.github.io/categories/Cheminformatics/</link>
       <pubDate>Sat, 16 Jul 2022 23:08:26 +0000</pubDate>
-      
       <guid>https://radifar.github.io/categories/Cheminformatics/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>brain-dump</title>
+      <title>Brain-Dump</title>
       <link>https://radifar.github.io/categories/brain-dump/</link>
       <pubDate>Sat, 12 Sep 2020 10:30:00 +0000</pubDate>
-      
       <guid>https://radifar.github.io/categories/brain-dump/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>molecular-docking</title>
+      <title>Molecular-Docking</title>
       <link>https://radifar.github.io/categories/molecular-docking/</link>
       <pubDate>Sat, 12 Sep 2020 10:30:00 +0000</pubDate>
-      
       <guid>https://radifar.github.io/categories/molecular-docking/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>virtual-screening</title>
+      <title>Virtual-Screening</title>
       <link>https://radifar.github.io/categories/virtual-screening/</link>
       <pubDate>Sat, 12 Sep 2020 10:30:00 +0000</pubDate>
-      
       <guid>https://radifar.github.io/categories/virtual-screening/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>troubleshooting</title>
+      <title>Troubleshooting</title>
       <link>https://radifar.github.io/categories/troubleshooting/</link>
       <pubDate>Wed, 26 Aug 2020 11:18:00 +0000</pubDate>
-      
       <guid>https://radifar.github.io/categories/troubleshooting/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

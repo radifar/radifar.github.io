@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Protonation on Radifar</title>
+    <link>https://radifar.github.io/tags/Protonation/</link>
+    <description>Recent content in Protonation on Radifar</description>
+    <image>
+      <title>Radifar</title>
+      <url>https://radifar.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://radifar.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.144.0</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 18 Feb 2025 03:50:51 +0000</lastBuildDate>
+    <atom:link href="https://radifar.github.io/tags/Protonation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Protein protonation tools and a simple case study how to use them for MD structure preparation with GROMACS</title>
+      <link>https://radifar.github.io/posts/2025-02-18-protein-protonation-tools-and-a-simple-case-study-how-to-use-them-for-md-structure-preparation-with-gromacs/</link>
+      <pubDate>Tue, 18 Feb 2025 03:50:51 +0000</pubDate>
+      <guid>https://radifar.github.io/posts/2025-02-18-protein-protonation-tools-and-a-simple-case-study-how-to-use-them-for-md-structure-preparation-with-gromacs/</guid>
+      <description>&lt;p&gt;In the previous post I wrote about why protonation state determination is important and the various method that can be used to determine protonation state. In this post I would like to do a simple case study on how to use empirical-based pK or protonation state prediction using PROPKA and how to use this tool to help preparing the input structure and topology for GROMACS.&lt;/p&gt;
+&lt;p&gt;As a disclaimer, this post does not contain the whole step on how to use pK prediction tool result to guide the preparation of protein structure prior to MD simulation, rather this is only a guide that could be used as pointer and give insight on how straightforward it is to integrate pK prediction tool like PROPKA in preparing &amp;ldquo;correctly&amp;rdquo; protonated protein structure for MD simulation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Protonation state determination of amino acid residues in Molecular Modeling and Molecular Simulation</title>
+      <link>https://radifar.github.io/posts/2025-02-14-protonation-state-determination-of-amino-acid-residues-for-molecular-modeling-and-molecular-simulation/</link>
+      <pubDate>Fri, 14 Feb 2025 12:33:35 +0000</pubDate>
+      <guid>https://radifar.github.io/posts/2025-02-14-protonation-state-determination-of-amino-acid-residues-for-molecular-modeling-and-molecular-simulation/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://radifar.github.io/assets/img/cover_protonation_protein.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The structure, function, and dynamics of proteins are dictated by the molecular interaction between its residues and the interaction with its environment. Some of the most important interactions are hydrogen bond, electrostatic, and non polar interations. And it is important to note that for some residues these interactions were affected by their protonation states. For example the deprotonation of aspartate, glutamate, and cysteine residue will cause them unable to act as hydrogen donor. Also, the protonation or deprotonation of a residue can cause formal charge change, which could modulate the short range and long range electrostatic interactions. Thus, in order to properly model and simulate a protein it is important to calculate the protonation state of the titratable residues in the protein.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

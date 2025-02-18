@@ -1,55 +1,70 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>computational-chemistry on Radifar</title>
+    <title>Computational-Chemistry on Radifar</title>
     <link>https://radifar.github.io/categories/computational-chemistry/</link>
-    <description>Recent content in computational-chemistry on Radifar</description>
+    <description>Recent content in Computational-Chemistry on Radifar</description>
     <image>
       <title>Radifar</title>
       <url>https://radifar.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://radifar.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.144.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 May 2023 04:15:02 +0000</lastBuildDate><atom:link href="https://radifar.github.io/categories/computational-chemistry/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 May 2023 04:15:02 +0000</lastBuildDate>
+    <atom:link href="https://radifar.github.io/categories/computational-chemistry/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lets Create A Domain-Specific Language for Molecular Interaction Analysis!</title>
       <link>https://radifar.github.io/posts/lets-create-domain-specific-language-molecular-interaction-analysis/</link>
       <pubDate>Fri, 05 May 2023 04:15:02 +0000</pubDate>
-      
       <guid>https://radifar.github.io/posts/lets-create-domain-specific-language-molecular-interaction-analysis/</guid>
-      <description>What is a Domain-Specific Language? It is more common than you think. Few of us – computational chemists – have heard the term Domain-Specific Language (DSL for short), even though this is somewhat ubiquitous in our workflow, especially when dealing with molecule visualisation. Don&amp;rsquo;t you believe me? Check out the command you type on VMD, PyMOL, YASARA, or Chimera.
-YASARA command:
-LoadPDB 1crn, download=yes AutoPosOriObj 1, x = 1, y = 10, z = 0, alpha = 0, beta = 0, gamma = 0 ColorRes cys, green ShowRes cys BallStickRes cys AutoRotateObj 1, Y = 1 wait 180 AutoRotateObj 1, Y = 0 ZoomRes Cys 16, step = 50 wait 100 ZoomRes all VMD Tcl/Tk command:</description>
+      <description>&lt;h2 id=&#34;what-is-a-domain-specific-language-it-is-more-common-than-you-think&#34;&gt;What is a Domain-Specific Language? It is more common than you think.&lt;/h2&gt;
+&lt;p&gt;Few of us – computational chemists – have heard the term Domain-Specific Language (DSL for short), even though this is somewhat ubiquitous in our workflow, especially when dealing with molecule visualisation. Don&amp;rsquo;t you believe me? Check out the command you type on VMD, PyMOL, YASARA, or Chimera.&lt;/p&gt;
+&lt;p&gt;YASARA command:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-yasara&#34; data-lang=&#34;yasara&#34;&gt;LoadPDB 1crn, download=yes
+AutoPosOriObj 1, x = 1, y = 10, z = 0, alpha = 0, beta = 0, gamma = 0
+ColorRes cys, green
+ShowRes cys
+BallStickRes cys
+AutoRotateObj 1, Y = 1
+wait 180
+AutoRotateObj 1, Y = 0
+ZoomRes Cys 16, step = 50
+wait 100
+ZoomRes all
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;VMD Tcl/Tk command:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Learn Open Babel in Python - 00 Setup</title>
       <link>https://radifar.github.io/posts/learn-open-babel-python-00-setup/</link>
       <pubDate>Sat, 16 Jul 2022 23:08:26 +0000</pubDate>
-      
       <guid>https://radifar.github.io/posts/learn-open-babel-python-00-setup/</guid>
-      <description>Prerequisite  Basic command prompt Basic Python (variable type, collection, loop, decision, and functions) Python virtual environment (conda/mamba) Jupyter notebook/lab  Create new environment So first as always, start with creating new environment (preferably mamba). If you have never used mamba before and have some experience with conda then great, you can simply change every conda command with mamba and vice versa.
-Create new environment for this series using this command:</description>
+      <description>&lt;h2 id=&#34;prerequisite&#34;&gt;Prerequisite&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Basic command prompt&lt;/li&gt;
+&lt;li&gt;Basic Python (variable type, collection, loop, decision, and functions)&lt;/li&gt;
+&lt;li&gt;Python virtual environment (conda/mamba)&lt;/li&gt;
+&lt;li&gt;Jupyter notebook/lab&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;create-new-environment&#34;&gt;Create new environment&lt;/h2&gt;
+&lt;p&gt;So first as always, start with creating new environment (preferably mamba). If you have never used mamba before and have some experience with conda then great, you can simply change every conda command with mamba and vice versa.&lt;/p&gt;
+&lt;p&gt;Create new environment for this series using this command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mamba create -n learn-open-babel &lt;span class=&#34;nv&#34;&gt;python&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;3.9 openbabel pandas jupyterlab rich
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Brief explanation for the command above:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The Story Behind PyPLIF HIPPOS (Part 1)</title>
       <link>https://radifar.github.io/posts/2020-09-12-the-story-behind-pyplif-hippos-part-1/</link>
       <pubDate>Sat, 12 Sep 2020 10:30:00 +0000</pubDate>
-      
       <guid>https://radifar.github.io/posts/2020-09-12-the-story-behind-pyplif-hippos-part-1/</guid>
       <description>Welcome to Our Brand New Interaction Fingerprinting Tool... PyPLIF</description>
     </item>
-    
     <item>
       <title>Installing Open Babel with Pip</title>
       <link>https://radifar.github.io/posts/2020-08-26-editable-pip-in-conda-env/</link>
       <pubDate>Wed, 26 Aug 2020 11:18:00 +0000</pubDate>
-      
       <guid>https://radifar.github.io/posts/2020-08-26-editable-pip-in-conda-env/</guid>
       <description>When your pip development environment can not recognize the Conda environment</description>
     </item>
-    
   </channel>
 </rss>

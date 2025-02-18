@@ -9,59 +9,134 @@
       <url>https://radifar.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://radifar.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.144.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 May 2023 04:15:02 +0000</lastBuildDate><atom:link href="https://radifar.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Feb 2025 03:50:51 +0000</lastBuildDate>
+    <atom:link href="https://radifar.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Protein protonation tools and a simple case study how to use them for MD structure preparation with GROMACS</title>
+      <link>https://radifar.github.io/posts/2025-02-18-protein-protonation-tools-and-a-simple-case-study-how-to-use-them-for-md-structure-preparation-with-gromacs/</link>
+      <pubDate>Tue, 18 Feb 2025 03:50:51 +0000</pubDate>
+      <guid>https://radifar.github.io/posts/2025-02-18-protein-protonation-tools-and-a-simple-case-study-how-to-use-them-for-md-structure-preparation-with-gromacs/</guid>
+      <description>&lt;p&gt;In the previous post I wrote about why protonation state determination is important and the various method that can be used to determine protonation state. In this post I would like to do a simple case study on how to use empirical-based pK or protonation state prediction using PROPKA and how to use this tool to help preparing the input structure and topology for GROMACS.&lt;/p&gt;
+&lt;p&gt;As a disclaimer, this post does not contain the whole step on how to use pK prediction tool result to guide the preparation of protein structure prior to MD simulation, rather this is only a guide that could be used as pointer and give insight on how straightforward it is to integrate pK prediction tool like PROPKA in preparing &amp;ldquo;correctly&amp;rdquo; protonated protein structure for MD simulation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Protonation state determination of amino acid residues in Molecular Modeling and Molecular Simulation</title>
+      <link>https://radifar.github.io/posts/2025-02-14-protonation-state-determination-of-amino-acid-residues-for-molecular-modeling-and-molecular-simulation/</link>
+      <pubDate>Fri, 14 Feb 2025 12:33:35 +0000</pubDate>
+      <guid>https://radifar.github.io/posts/2025-02-14-protonation-state-determination-of-amino-acid-residues-for-molecular-modeling-and-molecular-simulation/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://radifar.github.io/assets/img/cover_protonation_protein.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The structure, function, and dynamics of proteins are dictated by the molecular interaction between its residues and the interaction with its environment. Some of the most important interactions are hydrogen bond, electrostatic, and non polar interations. And it is important to note that for some residues these interactions were affected by their protonation states. For example the deprotonation of aspartate, glutamate, and cysteine residue will cause them unable to act as hydrogen donor. Also, the protonation or deprotonation of a residue can cause formal charge change, which could modulate the short range and long range electrostatic interactions. Thus, in order to properly model and simulate a protein it is important to calculate the protonation state of the titratable residues in the protein.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lets Create A Domain-Specific Language for Molecular Interaction Analysis!</title>
       <link>https://radifar.github.io/posts/lets-create-domain-specific-language-molecular-interaction-analysis/</link>
       <pubDate>Fri, 05 May 2023 04:15:02 +0000</pubDate>
-      
       <guid>https://radifar.github.io/posts/lets-create-domain-specific-language-molecular-interaction-analysis/</guid>
-      <description>What is a Domain-Specific Language? It is more common than you think. Few of us – computational chemists – have heard the term Domain-Specific Language (DSL for short), even though this is somewhat ubiquitous in our workflow, especially when dealing with molecule visualisation. Don&amp;rsquo;t you believe me? Check out the command you type on VMD, PyMOL, YASARA, or Chimera.
-YASARA command:
-LoadPDB 1crn, download=yes AutoPosOriObj 1, x = 1, y = 10, z = 0, alpha = 0, beta = 0, gamma = 0 ColorRes cys, green ShowRes cys BallStickRes cys AutoRotateObj 1, Y = 1 wait 180 AutoRotateObj 1, Y = 0 ZoomRes Cys 16, step = 50 wait 100 ZoomRes all VMD Tcl/Tk command:</description>
+      <description>&lt;h2 id=&#34;what-is-a-domain-specific-language-it-is-more-common-than-you-think&#34;&gt;What is a Domain-Specific Language? It is more common than you think.&lt;/h2&gt;
+&lt;p&gt;Few of us – computational chemists – have heard the term Domain-Specific Language (DSL for short), even though this is somewhat ubiquitous in our workflow, especially when dealing with molecule visualisation. Don&amp;rsquo;t you believe me? Check out the command you type on VMD, PyMOL, YASARA, or Chimera.&lt;/p&gt;
+&lt;p&gt;YASARA command:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-yasara&#34; data-lang=&#34;yasara&#34;&gt;LoadPDB 1crn, download=yes
+AutoPosOriObj 1, x = 1, y = 10, z = 0, alpha = 0, beta = 0, gamma = 0
+ColorRes cys, green
+ShowRes cys
+BallStickRes cys
+AutoRotateObj 1, Y = 1
+wait 180
+AutoRotateObj 1, Y = 0
+ZoomRes Cys 16, step = 50
+wait 100
+ZoomRes all
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;VMD Tcl/Tk command:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Learn Open Babel in Python - 00 Setup</title>
       <link>https://radifar.github.io/posts/learn-open-babel-python-00-setup/</link>
       <pubDate>Sat, 16 Jul 2022 23:08:26 +0000</pubDate>
-      
       <guid>https://radifar.github.io/posts/learn-open-babel-python-00-setup/</guid>
-      <description>Prerequisite  Basic command prompt Basic Python (variable type, collection, loop, decision, and functions) Python virtual environment (conda/mamba) Jupyter notebook/lab  Create new environment So first as always, start with creating new environment (preferably mamba). If you have never used mamba before and have some experience with conda then great, you can simply change every conda command with mamba and vice versa.
-Create new environment for this series using this command:</description>
+      <description>&lt;h2 id=&#34;prerequisite&#34;&gt;Prerequisite&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Basic command prompt&lt;/li&gt;
+&lt;li&gt;Basic Python (variable type, collection, loop, decision, and functions)&lt;/li&gt;
+&lt;li&gt;Python virtual environment (conda/mamba)&lt;/li&gt;
+&lt;li&gt;Jupyter notebook/lab&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;create-new-environment&#34;&gt;Create new environment&lt;/h2&gt;
+&lt;p&gt;So first as always, start with creating new environment (preferably mamba). If you have never used mamba before and have some experience with conda then great, you can simply change every conda command with mamba and vice versa.&lt;/p&gt;
+&lt;p&gt;Create new environment for this series using this command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mamba create -n learn-open-babel &lt;span class=&#34;nv&#34;&gt;python&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;3.9 openbabel pandas jupyterlab rich
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Brief explanation for the command above:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The Story Behind PyPLIF HIPPOS (Part 1)</title>
       <link>https://radifar.github.io/posts/2020-09-12-the-story-behind-pyplif-hippos-part-1/</link>
       <pubDate>Sat, 12 Sep 2020 10:30:00 +0000</pubDate>
-      
       <guid>https://radifar.github.io/posts/2020-09-12-the-story-behind-pyplif-hippos-part-1/</guid>
       <description>Welcome to Our Brand New Interaction Fingerprinting Tool... PyPLIF</description>
     </item>
-    
     <item>
       <title>Installing Open Babel with Pip</title>
       <link>https://radifar.github.io/posts/2020-08-26-editable-pip-in-conda-env/</link>
       <pubDate>Wed, 26 Aug 2020 11:18:00 +0000</pubDate>
-      
       <guid>https://radifar.github.io/posts/2020-08-26-editable-pip-in-conda-env/</guid>
       <description>When your pip development environment can not recognize the Conda environment</description>
     </item>
-    
     <item>
       <title>About Me</title>
       <link>https://radifar.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://radifar.github.io/about/</guid>
-      <description>Who Am I My name is Muhammad Radifar, but when you contact me just call me Radif. I am from Indonesia. Currently I am a
- Independent Researcher @PICompS Freelancer Research Assistant Computational Chemist, experienced with  Molecular Dynamics  NAMD GROMACS   Homology Modeling  Modeller   Molecular Docking  AutoDock Vina PLANTS   Molecule Visualization  VMD     Software Engineer (Python), experienced with  Open Babel Jupyter Notebook Sphinx documentation   Full Stack Developer  Front End: Vue Back End: Django API: GraphQL    Would Like To Know Me Better?</description>
+      <description>&lt;h1 id=&#34;who-am-i&#34;&gt;Who Am I&lt;/h1&gt;
+&lt;p&gt;My name is Muhammad Radifar, but when you contact me just call me Radif.
+I am from Indonesia. Currently I am a&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Independent Researcher @&lt;a href=&#34;https://picomps.org/profile/muhammad-radifar/&#34;&gt;PICompS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Freelancer&lt;/li&gt;
+&lt;li&gt;Research Assistant&lt;/li&gt;
+&lt;li&gt;Computational Chemist, experienced with
+&lt;ul&gt;
+&lt;li&gt;Molecular Dynamics
+&lt;ul&gt;
+&lt;li&gt;NAMD&lt;/li&gt;
+&lt;li&gt;GROMACS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Homology Modeling
+&lt;ul&gt;
+&lt;li&gt;Modeller&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Molecular Docking
+&lt;ul&gt;
+&lt;li&gt;AutoDock Vina&lt;/li&gt;
+&lt;li&gt;PLANTS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Molecule Visualization
+&lt;ul&gt;
+&lt;li&gt;VMD&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Software Engineer (Python), experienced with
+&lt;ul&gt;
+&lt;li&gt;Open Babel&lt;/li&gt;
+&lt;li&gt;Jupyter Notebook&lt;/li&gt;
+&lt;li&gt;Sphinx documentation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Full Stack Developer
+&lt;ul&gt;
+&lt;li&gt;Front End: Vue&lt;/li&gt;
+&lt;li&gt;Back End: Django&lt;/li&gt;
+&lt;li&gt;API: GraphQL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;would-like-to-know-me-better&#34;&gt;Would Like To Know Me Better?&lt;/h1&gt;
+&lt;p&gt;See &lt;strong&gt;My Projects&lt;/strong&gt; link above. Or click on my Github, Twitter, or Linkedin links below.&lt;/p&gt;</description>
     </item>
-    
-    
-    
   </channel>
 </rss>
